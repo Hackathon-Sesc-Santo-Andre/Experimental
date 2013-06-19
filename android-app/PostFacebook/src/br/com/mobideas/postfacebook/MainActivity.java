@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
         
         Map<String, Object> params = new HashMap<String, Object>();
         params.put("access_token", handle.getToken());
-        params.put("message", "Estou participando do Hackathon Sesc Santo André ! (Postando da minha app Android)");
+        params.put("message", "Estou participando do Hackathon Sesc Santo André ! #changebrazil (Postando da minha app Android)");
         
         a.ajax(url, params, JSONObject.class, new AjaxCallback<JSONObject>() {
 
